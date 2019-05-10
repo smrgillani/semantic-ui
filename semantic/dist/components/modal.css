@@ -203,7 +203,7 @@
     margin: 0em 0em 0em 0em;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1044px) {
   .ui.modal {
     width: 900px;
     margin: 0em 0em 0em 0em;
@@ -480,7 +480,7 @@
     margin: 0em 0em 0em 0em;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1044px) {
   .ui.mini.modal {
     width: 360px;
     margin: 0em 0em 0em 0em;
@@ -517,7 +517,7 @@
     margin: 0em 0em 0em 0em;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1044px) {
   .ui.tiny.modal {
     width: 540px;
     margin: 0em 0em 0em 0em;
@@ -554,7 +554,7 @@
     margin: 0em 0em 0em 0em;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1044px) {
   .ui.small.modal {
     width: 720px;
     margin: 0em 0em 0em 0em;
@@ -589,7 +589,7 @@
     margin: 0em 0em 0em 0em;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1044px) {
   .ui.large.modal {
     width: 1080px;
     margin: 0em 0em 0em 0em;
