@@ -1,1 +1,22 @@
-$white: #fff;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700|Roboto:300,400,500,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}*/
+
+/* neutral colors */
+$white: #ffffff;
+$black: #000000;
+$gray: #666666;
+
+/* warm colors */
+$orange: #EC8322;
+$red: #EF4036;
+
+/* cool colors */
+$teal: #00A79D;
+$green: #005852;
