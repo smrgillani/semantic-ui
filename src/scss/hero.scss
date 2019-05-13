@@ -1,0 +1,13 @@
+@import 'variables';
+
+.ui.placeholder.segment.the-hero {
+  background: url('../assets/image/hero.jpg');
+  background-size: cover;
+  height: 814px;
+
+  h1 {
+    font-size: 53pt;
+    padding: 40px 0;
+    color: $white;
+  }
+}

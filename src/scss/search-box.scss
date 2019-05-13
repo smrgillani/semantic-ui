@@ -1,0 +1,17 @@
+.search-input {
+  .ui.input>input {
+    border-radius: 22px;
+    background-color: #F5F5F5;
+    border: 0 none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .ui.icon.input>i.icon {
+    left: 0;
+  }
+
+  .ui.icon.input>input {
+    padding-left: 2.67142857em!important;
+  }
+}

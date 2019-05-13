@@ -1,0 +1,42 @@
+@import "variables";
+
+.global-header {
+  padding-top: 20px;
+
+  h1 {
+    font-size: 18pt;
+    font-weight: 700;
+    font-family: montserrat;
+    margin: 0;
+  }
+
+  .the-logo {
+    padding-right: 0 !important;
+  }
+
+  .the-search-box {
+    padding-left: 0 !important;
+  }
+
+  .ui.label {
+    background-color: transparent;
+    padding: 0;
+    color: $black;
+
+    i {
+      padding-left: 2px;
+    }
+  }
+
+  
+
+  .the-menu, .the-language {
+    padding-top: 0 !important;
+    padding-bottom: 5px !important;
+  }
+
+  .inactive {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
