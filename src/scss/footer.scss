@@ -1,0 +1,385 @@
+@import "variables";
+/*.bgimage{
+	background-image: url("../images/mani.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 500px;
+}
+.nav-link{
+	text-transform: capitalize;
+	padding-left: 12px;
+}
+
+.nav-item{
+	padding-left: 20px;
+}
+.hearderset{
+	padding-top: 220px;
+	box-sizing: border-box;
+}
+
+.hearderset h2{
+
+}
+
+.hearderset h1{
+
+}*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#menu{
+	padding-top: 25px;
+	/*border: 2px solid red;*/
+}
+#menu .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+	padding: 0;
+}
+.menuinfo{
+	/*border: 2px solid green;*/
+}
+
+.menuinfo p{
+	    color: #00000075;
+	    font-size: 12px;
+	    margin: 0px;
+	    /* padding: 10px 0px; */
+}
+
+.picture{
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+#picture{
+	padding: 50px 0px;
+
+}
+#picture .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+}
+.pictureinfo{
+	
+display: flex;
+	
+justify-content: space-between;
+	
+flex-wrap: wrap;
+}
+.pictureinfo .pix{
+}
+
+
+
+
+
+
+
+
+
+
+#contact{
+	padding: 30px 0px;
+
+}
+
+#contact .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+	padding: 0;
+}
+#contact .bigbox{
+	display: flex;
+	justify-content: space-between;
+}
+#contact .footerinfo3{
+	
+}
+#contact .footerinfo3 h5{
+	text-transform: capitalize;
+	color: black;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	text-shadow: 0.5px 0.2px 0.5 px black;
+}
+
+#contact .footerinfo3 a{
+	text-transform: capitalize;
+	color: gray;
+	font-size: 14px;
+	padding: 10px 0px;
+	margin: 0px;
+	display: block;
+	text-decoration: none;
+}
+#contact .footerinfo3 h4{
+	text-transform: capitalize;
+	margin: 0px;
+}
+#contact .space{
+	padding: 10px 0px;
+}
+
+
+
+
+
+
+
+#footer{
+	
+padding: 50px 0px;
+	
+}
+
+ #footer .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+}
+
+ #footer .boxfooter{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+.footerinfo2{
+
+}
+
+.footerinfo2 h5{
+	padding: 2px 5px;
+	color: black;
+	text-transform: capitalize;
+}
+
+#footer button{
+	font-weight: bold;
+	color: white;
+	background-color: orange;
+	border: none;
+	border-radius: 20px;
+	padding: 5px 23px;
+}
+#footer button:hover{
+	background-color: white;
+	color:orange;
+	border: 1px solid orange;
+}
+#footer .footerinfo2 p{
+	color: gray;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+
+
+#footer .movedown{
+	padding-top: 50px;
+}
+
+
+
+
+
+
+#pictureend{
+	
+}
+
+ #pictureend .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+}
+
+#pictureend .pictureinfo img{
+    
+}
+
+
+
+
+
+
+#footerend{
+	
+padding: 50px 0px;
+}
+
+
+#footerend  .container{
+	max-width: 1200px;
+	width:100%;
+	margin: 0px auto;
+}
+#footerend .container{
+	
+border-top: 1px solid #bbbbbb;
+	
+padding-top: 15px;
+}
+#footerend .endbox{
+	display: flex;
+	justify-content: space-between;
+}
+.footerinfoendleft{
+	
+}
+
+.footerinfoendright{
+	
+text-align: right;
+}
+
+.footerinfoendright h2{
+
+margin: 0px;
+
+letter-spacing: 5px;
+
+font-size: 20px;
+
+color: black;
+
+font-weight: 500;
+
+text-transform: uppercase;
+}
+
+
+.footerinfoendright p{
+	
+text-transform: uppercase;
+	
+font-size: 14px;
+	
+color: black;
+	
+text-align: right;
+	
+margin: 0px;
+	
+padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+ 
+
+}
+
+
+
+@media (max-width: 992px)
+ { 
+
+}
+
+
+
+
+@media (max-width: 768px)
+ {
+
+}
+
+
+
+@media (max-width: 576px)
+
+ {
+
+ 	.picture {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.menuinfo p {
+   
+    text-align: center;
+}
+#picture .pictureinfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#picture .pictureinfo .pix {
+	display: block;
+	flex-basis: 100%;
+	justify-content: center;
+	display: flex;
+	padding-top: 10px;
+}
+
+#contact .bigbox {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ 	#footer .boxfooter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#footer .col-lg-2 {
+    flex-basis: 50%;
+} 
+#pictureend .pictureinfo .pix {
+   
+display: block;
+   
+flex-basis: 100%;
+   
+display: flex;
+   
+justify-content: center;
+   
+padding-top: 10px;
+}
+
+
+#footerend .endbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#footerend .footerinfoendright h2 {
+    text-align: center;
+   
+}
+
+
+#footerend .footerinfoendright p {
+    
+    text-align: center;
+}
+}
