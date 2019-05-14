@@ -26,10 +26,13 @@ img {
 .contact {
   padding: 30px 0px; }
   .contact a {
+    transition: .2s ease all;
     text-transform: capitalize;
     color: gray;
     padding: 10px 0px;
     display: block; }
+  .contact a:hover {
+    color: #ec8322; }
   .contact .space {
     padding: 10px 0px; }
 
@@ -41,17 +44,20 @@ h5.headingCustom {
 
 .footer button {
   font-weight: bold;
-  color: white;
-  background-color: orange;
+  transition: .2s ease all;
+  background-color: #ec8322;
   border: none;
   border-radius: 20px;
   padding: 5px 23px;
   border: 1px solid transparent; }
+  .footer button a {
+    color: white; }
 
 .footer button:hover {
   background-color: white;
-  color: orange;
-  border: 1px solid orange; }
+  border: 1px solid #ec8322; }
+  .footer button:hover a {
+    color: #ec8322; }
 
 .footer p {
   color: gray;
