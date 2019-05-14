@@ -129,6 +129,8 @@ body {
     font-size: 53pt;
     padding: 40px 0;
     color: #ffffff; }
+  .ui.placeholder.segment.the-hero .the-content {
+    padding: 0 50px; }
 
 .search-input .ui.input > input {
   border-radius: 22px;
