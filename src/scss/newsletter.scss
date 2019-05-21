@@ -1,0 +1,102 @@
+
+
+body, html
+{
+    height: initial;
+}
+body.newsletter 
+{
+    padding: 80px 0px;
+}
+.newsletter  p
+{
+    font-size:16px;
+}
+.newsletter .image
+{
+    
+}
+.newsletter .newsletter
+{
+  
+ padding-top: 50px !important;
+ padding-bottom: 50px !important;
+    padding-left: 30px !important;
+}
+.newsletter .newpad 
+{
+    border-radius: 10px;
+    background-color: #eeeeee;
+    margin-top: 60px !important;
+    padding: 65px 65px 65px 65px;
+}
+
+.newsletter .pcon
+{
+    font-size: 18px !important;
+}
+.newsletter .pcon .item
+{
+    line-height: 1.4;
+}
+.newsletter .heading
+{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    margin: 5px 0px !important;
+}
+.newsletter .heading1
+{
+   font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    margin-bottom: 0px !important;
+}
+.newsletter .rad
+{
+    padding-left: 40px !important;
+    height: 45px;
+    border-radius: 25px !important;
+}
+
+.newsletter .button
+{
+     width: 140px;
+     border-radius: 25px;
+     background-color: #ec8322 !important;
+     font-size: 17px;
+     position: absolute;
+     color: #fff !important;
+     right: -2px;
+     top: 2px;
+     padding: 0px;
+     height: 41px;
+}
+.newsletter .fw-34
+{
+    font-size: 34px;
+}
+.newsletter .fw-34 + p
+{
+    color: #666666;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.newsletter .ui.fluid.input>input
+{
+    width: 100% !important;
+}
+.newsletter .search-input
+{
+    position: relative;
+}
+.newsletter .search-input:before
+{
+    content: "@";
+    display: block;
+    position: absolute;
+    z-index: 9;
+    top: 12px;
+    left: 12px;
+    color: #a6a6a6;
+    font-size: 20px;
+}
