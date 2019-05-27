@@ -1,48 +1,48 @@
-@import "variables";
+// @import "variables";
 
-.cta-card.ui.card {
-  width: 100%;
-  color: $white;
-  box-shadow: none;
-  margin-bottom: 20px;
+// .cta-card.ui.card {
+//   width: 100%;
+//   color: $white;
+//   box-shadow: none;
+//   margin-bottom: 20px;
 
-  .content {
-    margin-top: 68px;
+//   .content {
+//     margin-top: 68px;
 
-    .header {
-      font-family: $headerText;
-      font-size: 29px;
-      color: #D8D8D8;
-      margin: 20px 0;
-      line-height: 1em;
+//     .header {
+//       font-family: $headerText;
+//       font-size: 29px;
+//       color: #D8D8D8;
+//       margin: 20px 0;
+//       line-height: 1em;
 
-      @include media(">=md") {
-        font-size: 34px;
-      }
-    }
+//       @include media(">=md") {
+//         font-size: 34px;
+//       }
+//     }
 
-    .description {
-      font-size: 18px;
-      margin: 20px 0;
-      line-height: 1.3em;
-      padding: 0 15px;
+//     .description {
+//       font-size: 18px;
+//       margin: 20px 0;
+//       line-height: 1.3em;
+//       padding: 0 15px;
 
-      @include media(">=md") {
-        padding: 0 90px;
-      }
-    }
+//       @include media(">=md") {
+//         padding: 0 90px;
+//       }
+//     }
 
-    .button {
-      font-size: 18px;
-      color: $white;
-      background-color: transparent;
-      border: 2px solid $white;
-      border-radius: 42px;
-      padding: 14px 30px;
+//     .button {
+//       font-size: 18px;
+//       color: $white;
+//       background-color: transparent;
+//       border: 2px solid $white;
+//       border-radius: 42px;
+//       padding: 14px 30px;
 
-      &:hover {
-        background-color: rgba(0,0,0, 0.3);
-      }
-    }
-  }
-}
+//       &:hover {
+//         background-color: rgba(0,0,0, 0.3);
+//       }
+//     }
+//   }
+// }

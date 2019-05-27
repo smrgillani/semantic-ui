@@ -39,40 +39,16 @@
 	border-radius: 9px;
 	border: 11px solid black;
 }
-.feedback .position .image-text .title
-{
-	font-size: 16px;
-	font-weight: bold;
-	font-family: 'Roboto',sen-serif;
-	color: white;
-	text-align: center;
-	margin-bottom: 0px;
-}
-.feedback .position .image-text .name
-{
-	font-size: 34px;
-	font-weight: bold;
-	font-family: 'Montserrat',sen-serif;
-	color: white;
-}
-.feedback .position
-{
-	position: relative;
-}
-.feedback .position .image-text 
-{
-	position: absolute;
-	bottom: 29px;
-	left: 54px;
-}
+
 .feedback .position .logo-txt
 {
-	position: absolute;
-	right: 0px;
-	left: 0;
-	margin: auto;
-	top: 46%;
-	text-align: center;
+text-align: center;
+    margin-top: auto;
+        margin-bottom: -50px;
+}
+.feedback .mt-auto
+{
+	 margin-top: auto;
 }
 .feedback .d-block
 {
@@ -105,3 +81,42 @@
 .feedback .titleImg h2 {
     margin: 10px 0px;
 }
+
+.feedback .position
+{
+	position: relative;
+	width:300px;
+	    box-shadow: none;
+}
+.feedback .position .image-text 
+{
+	background: url("../assets/image/img.png") center center;
+	height: 452px;
+	background-size: cover;
+
+	padding-bottom: 35px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .position .image-text .name
+{
+	font-size: 34px;
+	font-weight: bold;
+	font-family: 'Montserrat',sen-serif;
+	color: white;
+	text-align: center;
+}
+
+.feedback .position .image-text .title
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Roboto',sen-serif;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+
+	}
