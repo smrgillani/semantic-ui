@@ -1,0 +1,27 @@
+@import "variables";
+
+#sketch
+{
+	margin-top: 100px;
+	text-align: center;	
+
+
+ .heading
+{
+	font-family: 'Montserrat',"sen-serif";
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+ .txt
+{
+    font-family: 'roboto',"sen-serif";
+    font-size: 17px;
+    text-align: left;
+}
+ .dis-center
+{
+	display: inline-block;
+}
+}
