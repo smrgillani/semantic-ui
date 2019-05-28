@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="12px" viewBox="0 0 6 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Icon/arrow-down-1" transform="translate(-9.000000, -6.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="arrow-down-1">
+                <path d="M12,15 C11.8,15 11.612,14.9247528 11.4705,14.788729 L6.11,9.61789533 C6.039,9.54940108 6,9.45871855 6,9.36176542 C6,9.26529464 6.039,9.17412975 6.11,9.10611786 C6.181,9.0376236 6.275,9 6.375,9 C6.475,9 6.5695,9.0376236 6.64,9.10611786 L12,14.2764692 L17.36,9.10611786 C17.431,9.0376236 17.525,9 17.625,9 C17.725,9 17.8195,9.0376236 17.89,9.10611786 C17.961,9.17461211 18,9.26529464 18,9.36176542 C18,9.45823619 17.961,9.54940108 17.89,9.61741298 L12.53,14.7882466 C12.389,14.9247528 12.2005,15 12,15 Z" id="Path" transform="translate(12.000000, 12.000000) scale(-1, 1) rotate(90.000000) translate(-12.000000, -12.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
