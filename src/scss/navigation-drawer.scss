@@ -1,0 +1,99 @@
+body.navigation
+{
+	background-color:#00a79d !important;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	align-items: center;	
+
+}
+.buttons
+{
+	font-family: 'Roboto',"sen-serif";
+	
+
+
+ .background-color
+
+{
+	background-color: #ffffff;
+
+}
+  .ui.active.button
+{
+	background-color:  #FFA500;
+	color: #ffffff;
+}
+ .icon
+{
+	float: right;
+	filter: brightness(100) ;
+}
+ p
+{
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+ .lft-btn
+{
+	padding-bottom: 0px;
+}
+ .padding-top
+{
+	padding-top: 0px;
+}
+ .ui.button
+{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+
+    padding: 17px 20px;
+}
+ .mt-55
+{
+	    margin-top: 55px;
+}
+ .ui.button:not(.active):hover
+{
+	background-color: 	#f0f0f0;
+}
+
+// #buittons .lft-btn
+// {
+// 	margin-bottom: 0px;
+// 	padding-bottom: 0px;
+// }
+ ul
+{
+	padding-left: 0px;
+}
+ ul li
+{
+	list-style: none;
+	    line-height: 25px;
+
+}
+ ul li a
+{
+	line-height: 10px;
+	text-align: left;
+	color: #666666;
+	font-size: 16px;
+	width: 100%;
+}
+ ul li a:hover
+{
+	color: #ff0000;
+}
+ ul li a:active
+{
+	font-weight: bold;
+	color: #666666;
+}
+}
