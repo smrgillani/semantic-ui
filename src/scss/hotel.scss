@@ -1,0 +1,53 @@
+#hotel-sketch
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#hotel-sketch .container .column
+{
+	margin: auto;
+}
+#hotel-sketch h1
+{
+	font-size: 32px;
+	font-family:'Montserrat', sans-serif;
+	margin-bottom: 30px;
+}
+#hotel-sketch .heading
+{
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-family:'Montserrat', sans-serif;
+	font-weight: 700;
+	}
+#hotel-sketch .hotel-name
+{
+	font-size: 25px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-family:'Montserrat', sans-serif;
+}
+#hotel-sketch .rating-stars
+{
+	display: flex;
+}
+#hotel-sketch .rating-stars .stars img
+{
+	    width: 12px;
+}
+#hotel-sketch .rating-stars .rating-txt
+{
+	background-color: #C94B76;
+	border-radius: 20px;
+	padding: 5px 8px;
+	margin-left: 12px;
+	color: #ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size: 7px;
+}
+#hotel-sketch .container .image-map
+{
+	width: 100%;
+	margin-top: 20px;
+}

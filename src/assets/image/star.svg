@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.299" height="23.502" viewBox="0 0 23.299 23.502">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="23.299" height="23.502" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_rating-star_Copy" data-name="Icon/rating-star Copy" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+    <g id="rating-star" transform="translate(-0.349 -0.247)">
+      <path id="Path" d="M23.206,8.482A1.505,1.505,0,0,0,21.8,7.5H15.713a.5.5,0,0,1-.472-.334L13.056.975a1.5,1.5,0,0,0-2.81,0l-.005.016L8.061,7.168A.5.5,0,0,1,7.59,7.5H1.5a1.5,1.5,0,0,0-.963,2.651l5.184,4.3A.5.5,0,0,1,5.877,15L3.7,21.527a1.5,1.5,0,0,0,2.31,1.684l5.346-3.92a.5.5,0,0,1,.591,0L17.29,23.21A1.5,1.5,0,0,0,19.6,21.527l-2.178-6.535a.5.5,0,0,1,.155-.543l5.194-4.306A1.5,1.5,0,0,0,23.206,8.482Z" transform="translate(0.349 0.247)"/>
+    </g>
+  </g>
+</svg>
