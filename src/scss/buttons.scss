@@ -1,0 +1,80 @@
+#buttons
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#buttons .container
+{
+	    width: calc(1253px + 2rem)!important;
+}
+#buttons .container .row
+{
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#buttons .container .active
+{
+	background-color: #474a4f !important;
+	color: #ffffff !important ;
+}
+#buttons .container .rt-align
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+#buttons .container .btn-tour
+{
+	width: 300px;
+	margin-right: 0px;
+	height: 60px;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: 'Montserrat',sen-serif;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+#buttons .container .btn-ground
+{
+	width: 300px;
+	height: 60px;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: 'Roboto',sen-serif;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+#buttons .container .btn-ground:hover
+{
+	background-color: #474a4f !important;
+	color: #ffffff !important ;
+}
+#buttons .container .btn-tour:hover
+{
+	background-color: #474a4f !important;
+	color: #ffffff !important ;
+}
+
+#buttons .container .btn{
+	max-width: 180px;
+	width: 14.3%;
+	height:50px;
+	font-family: 'Roboto',sen-serif;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	margin-left: 22px;
+}
+#buttons .container .btn:hover
+{
+	background-color: #474a4f !important;
+	color: #ffffff !important ;
+}
+#buttons .container  .w-180
+{
+	width: 180px;
+}

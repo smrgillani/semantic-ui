@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>buttons</title>
+	<meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="build/style.css">
+</head>
+<body>
+	<section id="buttons">
+		<div class="container ui grid">
+			<div class="row">
+				
+				<div class="column  twelve wide rt-align"><button class="btn-tour btn-active  active ui basic button">Tours</button>
+					<button class="btn-ground btn-active ui basic button">Ground</button>
+				</div>
+				<div class="column four wide rt-align"><button class="btn btn-active ui basic button w-180">Sort</button></div>
+			</div>
+			<div class="row">
+			<div class="column sixteen wide">
+			<button class="btn btn-active ui basic toggle button">Price</button>
+			<button class="btn btn-active ui basic toggle button">Length</button>
+			<button class="btn btn-active ui basic toggle button">Pace</button>
+			<button class="btn btn-active ui basic toggle button">Category</button>
+			<button class="btn btn-active ui basic toggle button">Best For</button>
+			<button class="btn btn-active ui basic toggle button">Multi Country</button>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+	  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="../semantic/dist/semantic.min.js"></script>
+
+
+
+<script>
+
+
+var btns = $(".btn-active");
+btns.on("click",function(){
+$(".active").removeClass('active');
+$(this).addClass('active');
+});
+
+</script>
+</body>
+</html>
