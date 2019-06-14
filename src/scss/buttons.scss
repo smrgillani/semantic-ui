@@ -21,7 +21,7 @@
 {
 	display: flex;
 	justify-content: flex-end;
-	align-items: end;
+	 align-items: end; 
 }
 #buttons .container .btn-tour
 {
@@ -58,23 +58,80 @@
 	background-color: #474a4f !important;
 	color: #ffffff !important ;
 }
-
 #buttons .container .btn{
-	max-width: 180px;
-	width: 14.3%;
+	width: 147px;
 	height:50px;
+	margin-top: 20px;
 	font-family: 'Roboto',sen-serif;
 	border-radius: 10px;
 	font-weight: 500;
 	font-size: 18px;
-	margin-left: 22px;
+	margin-left: 2px;
+	padding: 0 !important;
 }
 #buttons .container .btn:hover
 {
 	background-color: #474a4f !important;
 	color: #ffffff !important ;
 }
-#buttons .container  .w-180
+#buttons .container .row
 {
-	width: 180px;
+	flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#buttons .btn_col
+	{
+		flex-direction: column;
+	}
+	#buttons .container .btn_width
+	{
+		width: 100%;
+		max-width: 100%;
+		margin-top: 12px;
+		margin-left: 0px;
+	}
+	#buttons .column
+	{
+		width: 95% !important;
+		max-width: 95% !important;
+		padding-left: 20px;
+		padding-right: 5px;
+	}
+	#buttons .container .btn-ground
+	{
+		width: 50%;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	#buttons .container .btn-tour
+	{
+		width: 50%;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+	#buttons .container .btn_m
+	{
+		width: 95%;
+		margin-bottom: 20px;
+	}
+	#buttons .container .pd-rt
+	{
+		padding-left: 0px;
+		padding-right: 20px;
+	}
+ }
+ @media only screen and (min-width: 992px) {
+ 	#buttons .container .btn_width
+{
+	margin-top: 0px !important;
+	width: 60%;
+	margin-right: 34px;
+}
+	#buttons .container .btn_m
+	{
+		width: 30%;
+		
+	}
 }
